@@ -3,7 +3,7 @@ import italia51 from '../images/italia5.jpg'
 const italia5 = () => {
   return (
     <div>
-        <img src="{italia51}" alt="Fotografia italia" />
+        <img src={italia51} alt="Fotografia italia" />
     </div>
   )
 }
