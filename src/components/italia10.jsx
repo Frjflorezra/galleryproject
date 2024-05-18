@@ -1,6 +1,6 @@
 import React from 'react'
 import italia101 from '../images/italia10.jpg'
-const italia10 = () => {
+const Italia10 = () => {
   return (
     <div>
         <img src={italia101} alt="Fotografia italia" />
@@ -8,4 +8,4 @@ const italia10 = () => {
   )
 }
 
-export default italia10
+export default Italia10
