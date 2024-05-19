@@ -11,26 +11,28 @@ import Italia8 from './components/Italia8';
 import Italia9 from './components/Italia9';
 import Italia10 from './components/Italia10';
 import Navigation from './components/Navigation';
+import { Container } from 'react-bootstrap';
 
 
 
 function App() {
   return (
     <Router >
-      <Routes>
-        <Route path="/italia1" element={<Italia1/>}/>
-        <Route path="/italia2" element={<Italia2/>}/>
-        <Route path="/italia3" element={<Italia3/>}/>
-        <Route path="/italia4" element={<Italia4/>}/>
-        <Route path="/italia5" element={<Italia5/>}/>
-        <Route path="/italia6" element={<Italia6/>}/>
-        <Route path="/italia7" Component={Italia7}/>
-        <Route path="/italia8" element={<Italia8/>}/>
-        <Route path="/italia9" element={<Italia9/>}/>
-        <Route path="/italia10" element={<Italia10/>}/>
-      </Routes>
-      <Navigation/>
-      
+      <Container >
+        <Routes>
+          <Route path="/italia1" element={<Italia1/>}/>
+          <Route path="/italia2" element={<Italia2/>}/>
+          <Route path="/italia3" element={<Italia3/>}/>
+          <Route path="/italia4" element={<Italia4/>}/>
+          <Route path="/italia5" element={<Italia5/>}/>
+          <Route path="/italia6" element={<Italia6/>}/>
+          <Route path="/italia7" Component={Italia7}/>
+          <Route path="/italia8" element={<Italia8/>}/>
+          <Route path="/italia9" element={<Italia9/>}/>
+          <Route path="/italia10" element={<Italia10/>}/>
+        </Routes>
+        <Navigation/>
+      </Container>
     </Router>
   );
 }
